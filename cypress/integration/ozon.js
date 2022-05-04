@@ -1,5 +1,5 @@
-describe('Дохожу до корзины в Ozon', function () {
-    it('search something', function () {
+describe('Тестирование Ozon', function () {
+    it('Дохожу до корзины в Ozon', function () {
         cy.visit('https://www.ozon.ru/');
         cy.get("input[type='text']:first").type('айфон').type('{enter}');
         cy.contains('iPhone');
