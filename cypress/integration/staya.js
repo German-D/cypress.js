@@ -1,7 +1,7 @@
 
-describe('Главная гугла. Проверка, что в выдаче есть тесла', function () {
+describe('Тестирование staya', function () {
     
-    it('search something', function () {
+    it('Проваливаюсь в категорию поводки и ищу совпадение с названием Heatwave', function () {
         cy.visit('https://staya.dog/');
         cy.contains('input', 'Поводки').click();
         cy.contains('Heatwave');
