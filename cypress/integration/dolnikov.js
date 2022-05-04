@@ -1,5 +1,5 @@
 
-describe('Главная гугла. Проверка, что в выдаче есть тесла', function () {
+describe('Тестирование dolnikov.ru', function () {
 
     it('Проверка, что при переходе в статью урл будет верный', function () {
         cy.visit('https://dolnikov.ru/blog/');
